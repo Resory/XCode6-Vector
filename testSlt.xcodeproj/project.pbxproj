@@ -11,9 +11,9 @@
 		FFED6A191A0B15A200864B51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED6A181A0B15A200864B51 /* AppDelegate.m */; };
 		FFED6A1C1A0B15A200864B51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED6A1B1A0B15A200864B51 /* ViewController.m */; };
 		FFED6A1F1A0B15A200864B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFED6A1D1A0B15A200864B51 /* Main.storyboard */; };
-		FFED6A211A0B15A200864B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFED6A201A0B15A200864B51 /* Images.xcassets */; };
 		FFED6A241A0B15A200864B51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFED6A221A0B15A200864B51 /* LaunchScreen.xib */; };
 		FFED6A301A0B15A200864B51 /* testSltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED6A2F1A0B15A200864B51 /* testSltTests.m */; };
+		FFED6A3A1A0B17DC00864B51 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFED6A391A0B17DC00864B51 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +35,11 @@
 		FFED6A1A1A0B15A200864B51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FFED6A1B1A0B15A200864B51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FFED6A1E1A0B15A200864B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFED6A201A0B15A200864B51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFED6A231A0B15A200864B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FFED6A291A0B15A200864B51 /* testSltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFED6A2E1A0B15A200864B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFED6A2F1A0B15A200864B51 /* testSltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSltTests.m; sourceTree = "<group>"; };
+		FFED6A391A0B17DC00864B51 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +86,9 @@
 				FFED6A1A1A0B15A200864B51 /* ViewController.h */,
 				FFED6A1B1A0B15A200864B51 /* ViewController.m */,
 				FFED6A1D1A0B15A200864B51 /* Main.storyboard */,
-				FFED6A201A0B15A200864B51 /* Images.xcassets */,
 				FFED6A221A0B15A200864B51 /* LaunchScreen.xib */,
 				FFED6A131A0B15A200864B51 /* Supporting Files */,
+				FFED6A391A0B17DC00864B51 /* Media.xcassets */,
 			);
 			path = testSlt;
 			sourceTree = "<group>";
@@ -200,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFED6A1F1A0B15A200864B51 /* Main.storyboard in Resources */,
+				FFED6A3A1A0B17DC00864B51 /* Media.xcassets in Resources */,
 				FFED6A241A0B15A200864B51 /* LaunchScreen.xib in Resources */,
-				FFED6A211A0B15A200864B51 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testSlt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testSlt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -16,6 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    CGFloat width = [[UIScreen mainScreen] bounds].size.width;
+    CGFloat height = [[UIScreen mainScreen] bounds].size.height;
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, width, height)];
+    imgView.image = [UIImage imageNamed:@"123.pdf"];
+    
+//    [self.view addSubview:imgView];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
