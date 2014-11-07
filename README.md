@@ -12,6 +12,8 @@ Xcode6-矢量图使用对比。通过一个原始@1x图片和矢量图对比。�
 
 5.放入矢量图,bulid一下,系统会自动生成@1x,@2x,@3x格式.并且根据具体情况自动选择(生成的图片我们是找不到的)
 
-6.DemoImage 上面一张是矢量图处理,下面是普通@1x图片.可以看到对比效果.
+6.有什么建议和疑问 -- QQ:395905643 (注明github)
+
+7.DemoImage 上面一张是矢量图处理,下面是普通@1x图片.可以看到对比效果.
 
 ![Vector](https://github.com/Resory/Images/blob/master/vector.jpg)
