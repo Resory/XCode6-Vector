@@ -17,11 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CGFloat width = [[UIScreen mainScreen] bounds].size.width;
-    CGFloat height = [[UIScreen mainScreen] bounds].size.height;
+    UIImageView *iconpdf = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200   , 200)];
+    iconpdf.image = [UIImage imageNamed:@"Image"];
+    [self.view addSubview:iconpdf];
     
-    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, width, height)];
-    imgView.image = [UIImage imageNamed:@"123.pdf"];
+    UIImageView *iconpng = [[UIImageView alloc] initWithFrame:CGRectMake(100, 250, 200, 200)];
+    iconpng.image = [UIImage imageNamed:@"icon50"];
+    [self.view addSubview:iconpng];
     
 //    [self.view addSubview:imgView];
     

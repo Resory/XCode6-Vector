@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>196A895A-74F6-410B-A4A5-4E3626E83687</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testSlt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1256964AE3C95F3045F3C8C2F2D2985F4A98529D</key>
+		<string>https://github.com/Resory/Xcode6-Vector.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testSlt.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1256964AE3C95F3045F3C8C2F2D2985F4A98529D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Resory/Xcode6-Vector.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1256964AE3C95F3045F3C8C2F2D2985F4A98529D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1256964AE3C95F3045F3C8C2F2D2985F4A98529D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testSlt</string>
+		</dict>
+	</array>
+</dict>
+</plist>
